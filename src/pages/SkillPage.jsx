@@ -1,6 +1,6 @@
 import React from 'react'
 import SkillsPortfolio from '../component/Skill'
-import Navbar from '../Component/Navbar'
+import Navbar from './Navbar'
 const SkillPage = () => {
   return (
     <div>
