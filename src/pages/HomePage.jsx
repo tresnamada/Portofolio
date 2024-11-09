@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
-import HeroSection from '../Component/HeroSection'
+import HeroSection from '../component/HeroSection'
 import { useEffect } from 'react'
 
 const Home = () => {
