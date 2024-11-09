@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply font-primary
+}
+
+@keyframes waveEnter {
+    0% {
+      clip-path: circle(0% at 0% 100%);
+    }
+    100% {
+      clip-path: circle(150% at 100% 0%);
+    }
+  }
+  
+  @keyframes waveExit {
+    0% {
+      clip-path: circle(150% at 100% 0%);
+    }
+    100% {
+      clip-path: circle(0% at 0% 100%);
+    }
+  }
+  
+  .wave-enter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #001f3f; /* Sesuaikan dengan warna latar */
+    animation: waveEnter 0.6s forwards;
+    z-index: 9999;
+  }
+  
+  .wave-exit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #001f3f; /* Sesuaikan dengan warna latar */
+    animation: waveExit 0.6s forwards;
+    z-index: 9999;
+  }
+  
