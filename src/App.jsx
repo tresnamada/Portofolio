@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { motion } from "framer-motion";
-import Navbar from "./Component/Navbar";
+import Navbar from "./component/Navbar";
 import Home from "./pages/HomePage";
 import About from "./component/About";
 import SkillPage from "./pages/SkillPage";
