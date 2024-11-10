@@ -28,7 +28,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="py-12 px-4 sm:px-6 lg:px-8 bg-primary md:mt-16">
+    <div className="py-8 px-4 sm:px-4 lg:px-6 bg-primary md:mt-16">
        <h1 className="text-3xl md:text-4xl font-bold text-tertiary text-center mb-8 ">
             <ReactTyped strings={["Contact Me_"]} typeSpeed={50} backSpeed={50} loop></ReactTyped> 
           </h1>
@@ -97,10 +97,10 @@ const ContactPage = () => {
       </div>
 
       {/* Contact Info */}
-      <div className="mt-12 text-center text-tertiary" data-aos="fade-right">
-        <h3 className="text-xl font-bold">Or contact us directly:</h3>
-        <p>Email: <a href="mailto:contact@example.com" className="text-blue-400">contact@example.com</a></p>
-        <p className="mt-2">Phone: +123 456 7890</p>
+      <div className="mt-8 text-center text-tertiary">
+        <h3 className="text-xl font-bold">Or contact directly:</h3>
+        <p>Email: <a className="text-tertiary">tresnamada@gmail.com</a></p>
+        <p>erlangga 2024</p>
       </div>
     </div>
   );

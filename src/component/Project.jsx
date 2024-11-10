@@ -106,22 +106,22 @@ const ProjectPage = () => {
       </h1>
 
       {/* Filter Kategori */}
-      <div className="text-center mb-8 text-md pt-4 text-tertiary">
+      <div className="text-center mb-8 text-md pt-4 text-kuning">
         <button
           onClick={() => setSelectedCategory('Web')}
-          className="px-4 py-2 mx-2 bg-secondary text-white hover:bg-kuning hover:transition ease-out duration-500 rounded-lg"
+          className="px-4 py-2 mx-2 bg-secondary  hover:bg-tertiary hover:transition ease-out duration-500 rounded-lg"
         >
           Web
         </button>
         <button
           onClick={() => setSelectedCategory('App')}
-          className="px-4 py-2 mx-2 bg-secondary text-white hover:bg-kuning hover:transition ease-out duration-500 rounded-lg"
+          className="px-4 py-2 mx-2 bg-secondary  hover:bg-tertiary hover:transition ease-out duration-500 rounded-lg"
         >
           App
         </button>
         <button
           onClick={() => setSelectedCategory('Design')}
-          className="px-4 py-2 mx-2 bg-secondary text-white hover:bg-kuning hover:transition ease-out duration-500 rounded-lg"
+          className="px-4 py-2 mx-2 bg-secondary hover:bg-tertiary hover:transition ease-out duration-500 rounded-lg"
         >
           Design
         </button>

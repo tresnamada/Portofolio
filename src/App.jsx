@@ -22,11 +22,8 @@ const App = () => {
           path="/"
           element={
             <motion.div
-              initial="out"
-              animate="in"
-              exit="out"
               variants={pageTransition}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 1.5 }}
             >
               <Home />
             </motion.div>
@@ -36,9 +33,6 @@ const App = () => {
           path="/about"
           element={
             <motion.div
-              initial="out"
-              animate="in"
-              exit="out"
               variants={pageTransition}
               transition={{ duration: 0.5 }}
             >
@@ -49,10 +43,7 @@ const App = () => {
         <Route
           path="/skills"
           element={
-            <motion.div
-              initial="out"
-              animate="in"
-              exit="out"
+            <motion.div         
               variants={pageTransition}
               transition={{ duration: 0.5 }}
             >
@@ -63,10 +54,7 @@ const App = () => {
         <Route
           path="/projects"
           element={
-            <motion.div
-              initial="out"
-              animate="in"
-              exit="out"
+            <motion.div          
               variants={pageTransition}
               transition={{ duration: 0.5 }}
             >
@@ -78,11 +66,8 @@ const App = () => {
           path="/contact"
           element={
             <motion.div
-              initial="out"
-              animate="in"
-              exit="out"
               variants={pageTransition}
-              transition={{ duration: 10 }}
+              transition={{ duration: 0.5 }}
             >
               <ContactPage />
             </motion.div>
@@ -94,3 +79,4 @@ const App = () => {
 };
 
 export default App;
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactTyped,Typed } from "react-typed";
 import Gambar from './Gambar';
+import { Link } from 'react-router-dom';
 
 
 const HeroSection = () => {
@@ -16,7 +17,9 @@ const HeroSection = () => {
         <h2 className='text-tertiary pt-2 '>Hi <span className='animate-wiggle animate-infinite animate-ease-in-out'>👋</span>  Welcome to my portfolio website!</h2>
         <div className=' mt-4 flex justify-center gap-3'>
           <a href='https://github.com/tresnamada'target='blank' className="border-2  py-2 px-6 rounded-lg text-primary bg-tertiary hover:opacity-80  hover:text-white duration-300">My Github</a>
-          <button className="border-2 py-2 px-6 rounded-lg bg-tertiary hover:opacity-80 duration-300">Contact Me</button>
+         <Link to={'/Contact'}>
+         <button className="border-2 py-2 px-6 rounded-lg bg-tertiary hover:opacity-80 duration-300">Contact Me</button>
+         </Link> 
         </div>
       </div>
     </div>
