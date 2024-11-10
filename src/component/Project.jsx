@@ -155,7 +155,7 @@ const ProjectPage = () => {
         >
           <div
             className="bg-primary rounded-lg shadow-lg p-8 max-w-3xl w-full"
-            data-aos="zoom-in"
+            data-aos="zoom-in" duration={500}
           >
             <img
               src={selectedProject.image}
@@ -165,14 +165,7 @@ const ProjectPage = () => {
             <div className="p-4">
               <h3 className="text-2xl text-tertiary font-bold mb-2">{selectedProject.title}</h3>
               <p className="text-tertiary mb-4">{selectedProject.description}</p>
-              <a
-                href={selectedProject.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-              >
-                View Project
-              </a>
+             
             </div>
           </div>
         </div>
