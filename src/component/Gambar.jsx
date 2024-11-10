@@ -1,5 +1,5 @@
 import React from 'react'
-import aw from './image/hushushus.jpg'
+
 import asset from './image/asset.jpg'
 const Gambar = () => {
   return (
