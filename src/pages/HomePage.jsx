@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroSection from '../component/HeroSection'
+import HeroSection from '../Component/HeroSection'
 import { useEffect } from 'react'
 
 const Home = () => {
