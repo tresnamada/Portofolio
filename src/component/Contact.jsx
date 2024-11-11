@@ -33,7 +33,7 @@ const ContactPage = () => {
             <ReactTyped strings={["Contact Me_"]} typeSpeed={50} backSpeed={50} loop></ReactTyped> 
           </h1>
 
-      <div className="max-w-xl mx-auto border-2 md:border-3 text-tertiary rounded-lg shadow-lg p-8" data-aos="fade-up">
+      <div className="max-w-xl mx-auto border-2 md:border-3 text-tertiary rounded-lg shadow-lg p-8" >
         <form onSubmit={handleSubmit}>
           <div className="mb-6">
             <label htmlFor="name" className="block text-lg font-medium text-kuning">
