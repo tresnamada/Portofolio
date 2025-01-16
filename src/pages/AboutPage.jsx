@@ -1,6 +1,6 @@
-import React from 'react'
+
 import About from '../component/About'
-import Navbar from './Navbar'
+
 
 const AboutPage = () => {
   return (

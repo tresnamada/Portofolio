@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Aos from 'aos';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faUser, faAward } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faAward } from '@fortawesome/free-solid-svg-icons';
 import Gambar from './Gambar';
 import uiux from './image/uiux.jpg';
 import webdev from './image/webdev.png';
@@ -45,11 +45,11 @@ const About = () => {
   ];
 
   return (
-    <section className="w-full bg-primary text-white min-h-screen text-tertiary">
+    <section className="w-full bg-gradient-to-r from-primary to-secondary text-white min-h-screen text-tertiary">
       {/* Main Content Container */}
       <div className="container mx-auto px-4 py-8 md:py-16">
         {/* Profile Section */}
-        <div className="flex flex-col lg:flex-row-reverse lg:items-center md:mt-20 lg:gap-12 mb-20 ">
+        <div className="flex flex-col lg:flex-row-reverse lg:items-center md:mt-20 lg:gap-12 mb-20 mt-12 ">
           {/* Image Container */}
           <div className="w-full lg:w-1/2 flex items-center mx-auto justify-center mb-8 lg:mb-0" data-aos="fade-right">
             <div className="relative">

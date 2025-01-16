@@ -1,10 +1,7 @@
-import React from 'react'
-import Navbar from './Navbar'
 import Contact from '../component/Contact'
 const ContactPage = () => {
   return (
-    <div>
-  
+    <div className='h-screen'>
       <Contact />
     </div>
   )

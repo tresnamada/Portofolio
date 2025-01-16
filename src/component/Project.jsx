@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Typed, ReactTyped } from 'react-typed';
+import { ReactTyped } from 'react-typed';
 import Karya1 from './image/karya1.png';
 import Karya2 from './image/karya2.png';
 import Karya3 from './image/karya3.png';
@@ -100,8 +100,8 @@ const ProjectPage = () => {
   const filteredProjects = selectedCategory === 'All' ? projects : projects.filter(project => project.category === selectedCategory);
 
   return (
-    <div className="py-12 px-4 sm:px-6 lg:px-8 bg-primary">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-tertiary text-center mb-8 " data-aos="fade-right">
+    <div className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-secondary">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-tertiary text-center mb-8 mt-12 " data-aos="fade-right">
         <ReactTyped strings={["My Project_"]} typeSpeed={50} backSpeed={50} loop></ReactTyped>
       </h1>
 
@@ -109,19 +109,19 @@ const ProjectPage = () => {
       <div className="text-center mb-8 text-md pt-4 text-kuning">
         <button
           onClick={() => setSelectedCategory('Web')}
-          className="px-4 py-2 mx-2 bg-secondary  hover:bg-tertiary hover:transition ease-out duration-500 rounded-lg"
+          className="px-4 py-2 mx-2 bg-secondary  hover:bg-tertiary hover:scale-105 hover:bg-Biru  duration-105 hover:transition ease-out duration-500 rounded-lg"
         >
           Web
         </button>
         <button
           onClick={() => setSelectedCategory('App')}
-          className="px-4 py-2 mx-2 bg-secondary  hover:bg-tertiary hover:transition ease-out duration-500 rounded-lg"
+          className="px-4 py-2 mx-2 bg-secondary  hover:scale-105 duration-105  hover:bg-Biru hover:transition ease-out duration-500 rounded-lg"
         >
           App
         </button>
         <button
           onClick={() => setSelectedCategory('Design')}
-          className="px-4 py-2 mx-2 bg-secondary hover:bg-tertiary hover:transition ease-out duration-500 rounded-lg"
+          className="px-4 py-2 mx-2 bg-secondary hover:scale-105 duration-105   hover:bg-Biru hover:transition ease-out duration-500 rounded-lg"
         >
           Design
         </button>
@@ -155,7 +155,7 @@ const ProjectPage = () => {
         >
           <div
             className="bg-primary rounded-lg shadow-lg p-8 max-w-3xl w-full"
-            data-aos="zoom-in" duration={500}
+            data-aos="zoom-in"
           >
             <img
               src={selectedProject.image}

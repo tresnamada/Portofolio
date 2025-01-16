@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroSection from '../component/HeroSection'
 import { useEffect } from 'react'
 

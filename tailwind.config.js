@@ -22,11 +22,9 @@ export default {
       'secondary': '#1E3E62',
       'tertiary': '#B7B7B7',
       "kuning": "#FEECB3",
+      "Biru" : "#344CB7",
     },
   },
 
-  plugins: [
-    require('tailwindcss-animated'),
-  ],
 }
 
