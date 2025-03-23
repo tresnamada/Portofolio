@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <div className="w-full bg-secondary py-4 shadow-md fixed z-10 hover:opacity-75 transition-all duration-500">
+      <div className="w-full bg-secondary py-4 shadow-md fixed z-20 hover:opacity-75 transition-all duration-500">
         <div className="flex justify-between items-center px-8 container">
           {/* Logo */}
           <h1 className="text-xl font-bold text-tertiary hover:opacity-85">
